@@ -26,7 +26,7 @@ class Country extends Model
     public function getNameAdmin()
     {
         return '<div class="user-block">
-					<img class="img-circle" src="' . 'https://unpkg.com/swapifier@9.0.0-prod/img/flags/' .   $this->code . '.svg' . '" alt="User Image">
+					<img class="img-circle" src="' . 'https://swapcdn.glitch.me/swapifier/assets/2.0.0/img/flags/' .   $this->code . '.svg' . '" alt="User Image">
 					<span class="username">' . $this->name . '</span>
 				</div>';
     }

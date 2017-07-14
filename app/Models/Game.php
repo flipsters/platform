@@ -168,7 +168,7 @@ class Game extends Model
         if (!is_null($this->cover)) {
             return 'https://scaleflex.cloudimg.io/cdn/n/n/friendstub.com/images/carousel/' . $this->cover;
         } else {
-            return 'https://unpkg.com/swapifier@9.0.0-prod/img/no_cover_carousel.jpg';
+            return 'https://swapcdn.glitch.me/swapifier/assets/2.0.0/img/no_cover_carousel.jpg';
         }
     }
 
@@ -182,7 +182,7 @@ class Game extends Model
         if (!is_null($this->cover)) {
             return 'https://scaleflex.cloudimg.io/cdn/n/n/friendstub.com/images/square_tiny/' . $this->cover;
         } else {
-            return 'https://unpkg.com/swapifier@9.0.0-prod/img/no_cover.jpg';
+            return 'https://swapcdn.glitch.me/swapifier/assets/2.0.0/img/no_cover.jpg';
         }
     }
 
@@ -206,9 +206,9 @@ class Game extends Model
         if (!is_null($this->cover)) {
             return "<img src='" . asset('uploads/game/square_tiny/' . $this->cover)  . "' height='50' class='img-circle' />";
         } elseif (!is_null($this->giantbomb_id)) {
-            return 'https://unpkg.com/swapifier@9.0.0-prod/img/no_cover.jpg';
+            return 'https://swapcdn.glitch.me/swapifier/assets/2.0.0/img/no_cover.jpg';
         } else {
-            return 'https://unpkg.com/swapifier@9.0.0-prod/img/no_cover.jpg';
+            return 'https://swapcdn.glitch.me/swapifier/assets/2.0.0/img/no_cover.jpg';
         }
     }
 
