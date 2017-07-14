@@ -8,8 +8,9 @@ Open Source code for Swapifier and Largest Gamers Community Platform!
 
  - Yoginth - <yoginth@hotmail.com>
  - Srihari - <srihariravikumar@aol.com>
+ - MCET - <mcet.in>
  - Swapifier Team - <swapifier@gmail.com>
- - 
+ 
 # Sponsors
 
  - [Cloudflare](https://www.cloudflare.com/?utm_source=swapifier&utm_medium=link&utm_campaign=swapifier)
