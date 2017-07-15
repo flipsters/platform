@@ -152,7 +152,7 @@ class Game extends Model
     public function getImageCoverAttribute()
     {
         if (!is_null($this->cover)) {
-            return 'https://scaleflex.cloudimg.io/cdn/n/n/friendstub.com/images/cover/' . $this->cover;
+            return 'https://i1.wp.com/friendstub.com/images/cover/' . $this->cover;
         } else {
             return null;
         }
@@ -166,7 +166,7 @@ class Game extends Model
     public function getImageCarouselAttribute()
     {
         if (!is_null($this->cover)) {
-            return 'https://scaleflex.cloudimg.io/cdn/n/n/friendstub.com/images/carousel/' . $this->cover;
+            return 'https://i1.wp.com/friendstub.com/images/carousel/' . $this->cover;
         } else {
             return 'https://swapcdn.glitch.me/swapifier/assets/2.0.0/img/no_cover_carousel.jpg';
         }
@@ -180,7 +180,7 @@ class Game extends Model
     public function getImageSquareTinyAttribute()
     {
         if (!is_null($this->cover)) {
-            return 'https://scaleflex.cloudimg.io/cdn/n/n/friendstub.com/images/square_tiny/' . $this->cover;
+            return 'https://i1.wp.com/friendstub.com/images/square_tiny/' . $this->cover;
         } else {
             return 'https://swapcdn.glitch.me/swapifier/assets/2.0.0/img/no_cover.jpg';
         }
