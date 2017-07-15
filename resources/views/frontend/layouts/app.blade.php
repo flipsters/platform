@@ -23,7 +23,7 @@
 	  <meta content="origin-when-cross-origin" name="referrer" />
 	  <meta name="theme-color" content="#302f2f">
 	  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Swapifier">
-	  <link rel="shortcut icon" href="{{ trans('general.cdnurl') }}img/favicon-16x16.png" />
+	  <link rel="shortcut icon" href="{{ trans('general.cdnurl') }}img/favicon.ico" />
 	  <link rel="assets" href="{{ trans('general.cdnurl') }}">
     <link rel="apple-touch-icon" sizes="180x180" href="{{ trans('general.cdnurl') }}img/apple-touch-icon.png">
     <link rel="icon" sizes="192x192" href="{{ trans('general.cdnurl') }}img/android-chrome-192x192.png">
