@@ -11,7 +11,7 @@
   <head>
   	<link href="https://swapcdn.glitch.me" rel="dns-prefetch" />
 	  <link href="https://cdnjs.cloudflare.com" rel="dns-prefetch" />
-	  <link href="https://scaleflex.cloudimg.io" rel="dns-prefetch" />
+	  <link href="https://i1.wp.com" rel="dns-prefetch" />
 	  <link rel="preload" href="{{ trans('general.cdnurl') }}img/logo.png" as="image">
 	
     <meta charset="utf-8">
