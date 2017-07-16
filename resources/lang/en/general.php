@@ -54,8 +54,8 @@ return [
 	
 	  /* Content Delivery Network URL String */
 	
-    'url' => 'https://swapcdn.glitch.me/swapifier/assets/6.0.0/',
-	  'cdnurl' => 'https://swapcdn.glitch.me/swapifier/assets/6.0.0/',
+    'url' => 'https://swapcdn.glitch.me/swapifier/assets/7.0.0/',
+	  'cdnurl' => 'https://swapcdn.glitch.me/swapifier/assets/7.0.0/',
 
     /* Start new strings v1.2 */
     'blog' => 'Blog',
