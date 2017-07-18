@@ -1,5 +1,24 @@
 {
-  "private": true,
+  "name": "swapifier-platform",
+  "version": "5.0.0-beta",
+  "description": "Swapifier Platform",
+  "author": "Swapifier",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swapifier/platform"
+  },
+  "keywords": [
+    "Swapifier",
+    "Games",
+    "Platform",
+    "Swap",
+    "Trade",
+    "Buy",
+    "Gamers",
+    "Community",
+    "Sell"
+  ],
   "scripts": {
     "prod": "gulp --production",
     "dev": "gulp watch"
