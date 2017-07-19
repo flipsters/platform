@@ -606,15 +606,15 @@
     @endif
   </body>
   @yield('before-scripts')
-  <script src="https://swapcdn.glitch.me/cdnjs/cdnjs/931b3453/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://swapcdn.glitch.me/cdnjs/cdnjs/931b3453/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-  <script src="https://swapcdn.glitch.me/cdnjs/cdnjs/931b3453/ajax/libs/twitter-bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"></script>
   <script async src="{{ trans('general.cdnurl') }}js/bootstrap.offcanvas.js"></script>
-  <script async src="https://swapcdn.glitch.me/cdnjs/cdnjs/931b3453/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
-  <script src="https://swapcdn.glitch.me/cdnjs/cdnjs/931b3453/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js"></script>
-  <script src="https://swapcdn.glitch.me/cdnjs/cdnjs/931b3453/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
   <script async src="{{ trans('general.cdnurl') }}js/site.js"></script>
-  <script src="https://swapcdn.glitch.me/cdnjs/cdnjs/931b3453/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
   {!! config('settings.js') !!}
   @yield('after-scripts')
   <script src="{{ trans('general.cdnurl') }}js/notie.min.js"></script>
