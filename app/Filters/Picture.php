@@ -15,7 +15,7 @@ class Picture implements FilterInterface
             });
         }
         // insert watermark
-        $image->insert('https://unpkg.com/swapifier@20.0.0/img/watermark.png'), 'bottom-right', 10, 10);
+        $image->insert('https://swapcdn.glitch.me/swapifier/assets/11.0.0/img/watermark.png'), 'bottom-right', 10, 10);
 
         return $image;
     }

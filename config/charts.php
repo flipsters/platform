@@ -33,7 +33,7 @@ return [
 
         'canvas-gauges' => [
             'scripts' => [
-                'https://cdn.rawgit.com/Mikhus/canvas-gauges/gh-pages/download/2.0.9/all/gauge.min.js',
+                'https://swapcdn.glitch.me/Mikhus/canvas-gauges/gh-pages/download/2.0.9/all/gauge.min.js',
             ],
         ],
 
