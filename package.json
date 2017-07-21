@@ -1,6 +1,6 @@
 {
   "name": "swapifier-platform",
-  "version": "6.0.0-beta",
+  "version": "7.0.0-beta",
   "description": "Swapifier Platform",
   "author": "Swapifier",
   "license": "MIT",
@@ -17,6 +17,7 @@
     "Buy",
     "Gamers",
     "Community",
+    "Swap",
     "Sell"
   ],
   "scripts": {
