@@ -16,7 +16,8 @@
 	
 	  <meta charset="utf-8">
 	  <meta name="csrf-token" content="{{ csrf_token() }}">
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
       <meta http-equiv="Content-Script-Type" content="text/javascript" />
       <meta http-equiv="Content-Style-Type" content="text/css" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
