@@ -35,8 +35,8 @@
       <link rel="manifest" href="/manifest.json">
       <link rel="mask-icon" href="{{ trans('general.cdnurl') }}img/safari-pinned-tab.svg" color="#302f2f">
       <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ url('sitemap') }}" />
-      <link rel="stylesheet" href="{{ trans('general.cdnurl') }}main-bundle-bootstrap.css">
-      <link rel="stylesheet" href="{{ trans('general.cdnurl') }}main-bundle-1.css">
+      <link rel="stylesheet" href="{{ trans('general.cdnurl') }}main-bundle-bootstrap.min.css">
+      <link rel="stylesheet" href="{{ trans('general.cdnurl') }}main-bundle-1.min.css">
       <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 	{!! SEO::generate() !!}
 
