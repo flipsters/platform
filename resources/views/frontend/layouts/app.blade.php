@@ -257,9 +257,9 @@
 
             <ul class="nav navbar-toolbar navbar-right navbar-toolbar-right">
               @if(Auth::check())
-				  <i class="icon fa fa-bell fa-lg" aria-hidden="true"></i>
               <li class="nav-item dropdown" id="dropdown-notifications">
                 <a class="nav-link" data-toggle="dropdown" href="javascript:void(0)" title="Notifications" role="button" >
+				<i class="icon fa fa-bell fa-lg" aria-hidden="true"></i>
                   <i class="icon fa fa-bell fa-lg" aria-hidden="true"></i>
                   {{-- Count unread notifications --}}
                   @if(count(Auth::user()->unreadNotifications)>0)
