@@ -574,8 +574,8 @@
 
 
 <link href="{{ trans('general.cdnurl') }}vendor/backpack/summernote/summernote_frontend.css" rel="stylesheet" type="text/css" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js"></script>
+<script src="https://cdn.jsdelivr.net/mustache.js/2.3.0/mustache.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.maskmoney/3.0.2/jquery.maskMoney.min.js"></script>
 <script src="{{ trans('general.cdnurl') }}vendor/backpack/summernote/summernote.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.64/jquery.form-validator.min.js"></script>
 
