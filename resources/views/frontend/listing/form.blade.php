@@ -577,10 +577,10 @@
 <script src="https://cdn.jsdelivr.net/mustache.js/2.3.0/mustache.min.js"></script>
 <script src="https://cdn.jsdelivr.net/jquery.maskmoney/3.0.2/jquery.maskMoney.min.js"></script>
 <script src="{{ trans('general.cdnurl') }}vendor/backpack/summernote/summernote.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.64/jquery.form-validator.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/sawpcdn/jQuery-Form-Validator@2.3.64/form-validator/jquery.form-validator.min.js"></script>
 
 @if(config('settings.picture_upload') || (isset($listing) && !is_null($listing->picture)))
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Dropify/0.2.2/js/dropify.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/sawpcdn/dropify@0.2.2/dist/js/dropify.min.js"></script>
   <link rel="stylesheet" href="{{ trans('general.cdnurl') }}css/dropify.css">
 @endif
 
