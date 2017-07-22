@@ -617,7 +617,7 @@
   <script src="https://cdn.jsdelivr.net/typeahead.js/0.11.1/typeahead.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/jquery.lazyload/1.9.3/jquery.lazyload.min.js"></script>
   <script async src="{{ trans('general.cdnurl') }}js/site.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/OwlCarousel2/OwlCarousel2@2.2.1/dist/owl.carousel.min.js"></script>
   {!! config('settings.js') !!}
   @yield('after-scripts')
   <script src="{{ trans('general.cdnurl') }}js/notie.min.js"></script>

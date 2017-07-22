@@ -208,7 +208,7 @@
 
 
 <script src="https://cdn.jsdelivr.net/masonry/4.2.0/masonry.pkgd.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/sawpcdn/imagesloaded@v4.1.3/imagesloaded.pkgd.min.js"></script>
 <script src="https://cdn.jsdelivr.net/jquery.magnific-popup/1.0.0/jquery.magnific-popup.min.js"></script>
 
 
