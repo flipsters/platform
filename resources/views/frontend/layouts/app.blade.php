@@ -257,6 +257,7 @@
 
             <ul class="nav navbar-toolbar navbar-right navbar-toolbar-right">
               @if(Auth::check())
+			  <i class="fa fa-tags"></i>@if((count($user->listings->where('status',0))+count($user->listings->where('status',1))) > 0)<span class="badge badge-dark badge-sm up">{{(count($user->listings->where('status',0))+count($user->listings->where('status',1)))}}</span>@endif
               <li class="nav-item dropdown" id="dropdown-notifications">
                 <a class="nav-link" data-toggle="dropdown" href="javascript:void(0)" title="Notifications" role="button" >
                   <i class="icon fa fa-bell fa-lg" aria-hidden="true"></i>
