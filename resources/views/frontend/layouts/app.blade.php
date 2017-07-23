@@ -9,32 +9,35 @@
 -->
 <html class="no-js css-menubar" lang="{{config('settings.default_locale')}}" >
   <head>
-  	<link href="https://unpkg.com" rel="dns-prefetch" />
+  	<link href="https://cdn.jsdelivr.net" rel="dns-prefetch" />
 	  <link href="https://cdnjs.cloudflare.com" rel="dns-prefetch" />
 	  <link href="https://i1.wp.com" rel="dns-prefetch" />
 	  <link rel="preload" href="{{ trans('general.cdnurl') }}img/logo.png" as="image">
 	
-    <meta charset="utf-8">
+	  <meta charset="utf-8">
 	  <meta name="csrf-token" content="{{ csrf_token() }}">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
-    <meta property="fb:app_id" content="144193326127105" />
-    <meta name="mobile-web-app-capable" content="yes">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta http-equiv="Content-Script-Type" content="text/javascript" />
+      <meta http-equiv="Content-Style-Type" content="text/css" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+      <meta property="fb:app_id" content="144193326127105" />
+      <meta name="mobile-web-app-capable" content="yes">
 	  <meta content="origin-when-cross-origin" name="referrer" />
 	  <meta name="theme-color" content="#302f2f">
 	  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Swapifier">
 	  <link rel="shortcut icon" href="{{ trans('general.cdnurl') }}img/favicon.ico" />
 	  <link rel="assets" href="{{ trans('general.cdnurl') }}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ trans('general.cdnurl') }}img/apple-touch-icon.png">
-    <link rel="icon" sizes="192x192" href="{{ trans('general.cdnurl') }}img/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" href="{{ trans('general.cdnurl') }}img/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="{{ trans('general.cdnurl') }}img/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="/manifest.json">
-    <link rel="mask-icon" href="{{ trans('general.cdnurl') }}img/safari-pinned-tab.svg" color="#302f2f">
-    <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ url('sitemap') }}" />
-    <link rel="stylesheet" href="{{ trans('general.cdnurl') }}main-bundle-bootstrap.css">
-    <link rel="stylesheet" href="{{ trans('general.cdnurl') }}main-bundle-1.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+      <link rel="apple-touch-icon" sizes="180x180" href="{{ trans('general.cdnurl') }}img/apple-touch-icon.png">
+      <link rel="icon" sizes="192x192" href="{{ trans('general.cdnurl') }}img/android-chrome-192x192.png">
+	  <link rel="icon" type="image/png" href="{{ trans('general.cdnurl') }}img/favicon-32x32.png" sizes="32x32">
+      <link rel="icon" type="image/png" href="{{ trans('general.cdnurl') }}img/favicon-16x16.png" sizes="16x16">
+      <link rel="manifest" href="/manifest.json">
+      <link rel="mask-icon" href="{{ trans('general.cdnurl') }}img/safari-pinned-tab.svg" color="#302f2f">
+      <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ url('sitemap') }}" />
+      <link rel="stylesheet" href="{{ trans('general.cdnurl') }}main-bundle-bootstrap.css">
+      <link rel="stylesheet" href="{{ trans('general.cdnurl') }}main-bundle-1.css">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 	{!! SEO::generate() !!}
 
     @if(config('settings.css'))
@@ -606,15 +609,15 @@
     @endif
   </body>
   @yield('before-scripts')
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/tether/1.4.0/tether.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"></script>
   <script async src="{{ trans('general.cdnurl') }}js/bootstrap.offcanvas.js"></script>
-  <script async src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+  <script async src="https://cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/typeahead.js/0.11.1/typeahead.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.lazyload/1.9.3/jquery.lazyload.min.js"></script>
   <script async src="{{ trans('general.cdnurl') }}js/site.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/OwlCarousel2/OwlCarousel2@2.2.1/dist/owl.carousel.min.js"></script>
   {!! config('settings.js') !!}
   @yield('after-scripts')
   <script src="{{ trans('general.cdnurl') }}js/notie.min.js"></script>

@@ -8,7 +8,7 @@
     <div class="background-color"></div>
     {{-- Subheader title (Dashboard) --}}
     <div class="content">
-      <span class="title"><i class="fa fa-tachometer" style="color:#20f12d"></i> {{ trans('users.dash.dashboard') }}</span>
+      <span class="title"><i class="fa fa-tachometer"></i> {{ trans('users.dash.dashboard') }}</span>
     </div>
 
   </div>
