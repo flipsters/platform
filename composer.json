@@ -7,15 +7,15 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/wiledia/laravel-messenger"
+            "url": "https://github.com/swapifier/laravel-messenger"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/wiledia/laravel-money"
+            "url": "https://github.com/swapifier/laravel-money"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/wiledia/laravel5-3-installer"
+            "url": "https://github.com/swapifier/laravel5-3-installer"
         }
     ],
     "require": {

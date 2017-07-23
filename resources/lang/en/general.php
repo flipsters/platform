@@ -52,7 +52,7 @@ return [
     'close' => 'Close',
     'cancel' => 'Cancel',
 	
-	  /* Content Delivery Network URL String */
+    /* Content Delivery Network URL String */
 	
     'url' => 'https://cdn.jsdelivr.net/npm/swapifier@7.0.0-swap/',
     'cdnurl' => 'https://cdn.jsdelivr.net/npm/swapifier@7.0.0-swap/',
