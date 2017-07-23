@@ -130,7 +130,7 @@
       <div class="gsummary">
         {!! $game->description !!}
       </div>
-      <a href="https://www.amazon.com/s/ref=swapifier-21&field-keywords={{$game->name}}" target="_blank" class="buy-button ad m-r-10 m-b-10" style="margin-top:13px"><span><i class="icon fa fa-shopping-basket" aria-hidden="true"></i> Buy on Amazon</span></a>
+      <a href="https://www.amazon.com/s/ref=swapifier-21&field-keywords={{$game->name}}" target="_blank" class="buy-button ad m-r-10 m-b-10" style="margin-top:13px"><span><i class="icon fa fa-amazon" aria-hidden="true"></i> Buy on Amazon</span></a>
       {{-- Available on different platforms --}}
       @if(isset($different_platforms) && count($different_platforms)>0)
       <div class="gavailable">
