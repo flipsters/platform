@@ -45,9 +45,23 @@
     </style>
     @endif
     <script>
-        if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/s.js');
-        }
+	if ('serviceWorker' in navigator && navigator.userAgent.indexOf("Mobile") === -1) {
+		navigator.serviceWorker.register('/sw.js').then(function(registration) {
+			console.log('ServiceWorker registration successful with scope: ', registration.scope);
+		})
+		.catch(function(err) {
+			console.error('ServiceWorker registration failed: ', err);
+		});
+	} else if('serviceWorker' in navigator && navigator.userAgent.indexOf("Mobile") > -1){
+        navigator.serviceWorker.getRegistration().then(function(registration) {
+            var serviceWorkerUnregistered=false;
+            if(registration) {
+                registration.unregister();
+                serviceWorkerUnregistered=true;
+            }
+            serviceWorkerUnregistered && window.location.reload();
+        });
+    }
     </script>
     <script>
         window.Laravel = @php echo json_encode([
