@@ -467,6 +467,13 @@
             maxEntries: 5,
             maxAgeSeconds: 604800
         }
+    })), o.a.router.get("/uploads/(.*)", o.a.cacheFirst, Object.assign({}, f, {
+        origin: "https://static.giantbomb.com",
+        cache: {
+            name: u.mainBundles,
+            maxEntries: 5,
+            maxAgeSeconds: 604800
+        }
     })), o.a.router.get("/s/(.*)", o.a.fastest, {
         origin: "https://fonts.gstatic.com",
         cache: {
