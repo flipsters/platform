@@ -26,7 +26,7 @@ class Country extends Model
     public function getNameAdmin()
     {
         return '<div class="user-block">
-					<img class="img-circle" src="' . 'https://cdn.jsdelivr.net/npm/swapifier@1.0.0-swap/img/flags/' .   $this->code . '.svg' . '" alt="User Image">
+					<img class="img-circle" src="' . 'https://cdn.jsdelivr.net/npm/swapdelivr@1.0.0/img/flags/' .   $this->code . '.svg' . '" alt="User Image">
 					<span class="username">' . $this->name . '</span>
 				</div>';
     }
