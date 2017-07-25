@@ -8,7 +8,7 @@
     <div class="background-color"></div>
 
     <div class="content">
-      <span class="title"><i class="fa fa-briefcase" style="color:#45a0f6"></i> {{ trans('general.offers') }}</span>
+      <span class="title"><i class="fa fa-briefcase"></i> {{ trans('general.offers') }}</span>
     </div>
 
     @if(count($user->offers) != 0)
