@@ -1,12 +1,6 @@
 machine:
-  timezone:
-    America/Chicago
-
   php:
-    version: 5.5.11
-
-  environment:
-    ENVIRONMENT: testing
-    DB_URL: 127.0.0.1
-    DB_NAME: circle_test
-    DB_USER: ubuntu
+	version: 5.4.21
+dependencies:
+  pre:
+	- echo "memory_limit = 1024M" > ~/.phpenv/versions/5.4.21/etc/conf.d/memory.ini
