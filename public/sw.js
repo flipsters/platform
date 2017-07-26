@@ -460,6 +460,12 @@
             name: u.static,
             maxEntries: 50
         }
+    }),  o.a.router.get("/avatar/(.*)", o.a.cacheFirst, {
+        origin: "https://secure.gravatar.com",
+        cache: {
+            name: u.static,
+            maxEntries: 50
+        }
     }), o.a.router.get("/ajax/(.*)", o.a.cacheFirst, Object.assign({}, f, {
         origin: "https://cdnjs.cloudflare.com",
         cache: {
