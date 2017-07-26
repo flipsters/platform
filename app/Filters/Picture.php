@@ -15,7 +15,7 @@ class Picture implements FilterInterface
             });
         }
         // insert watermark
-        $image->insert('https://cdn.jsdelivr.net/npm/swapifier@1.0.0-swap/img/watermark.png'), 'bottom-right', 10, 10);
+        $image->insert('https://cdn.jsdelivr.net/npm/swapdelivr@1.0.0/img/watermark.png'), 'bottom-right', 10, 10);
 
         return $image;
     }
