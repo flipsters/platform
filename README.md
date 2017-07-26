@@ -1,7 +1,7 @@
 # Platform
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6203f83da8f1436b8dc4533f5332044d)](https://www.codacy.com/app/swapifier/platform?utm_source=github.com&utm_medium=referral&utm_content=swapifier/platform&utm_campaign=badger)
-[![Build Status](https://semaphoreci.com/api/v1/swapifier/platform/branches/master/shields_badge.svg)](https://semaphoreci.com/swapifier/platform)
+[![Build Status](https://semaphoreci.com/api/v1/swapifier/platform-web/branches/master/shields_badge.svg)](https://semaphoreci.com/swapifier/platform-web)
 
 Open Source code for Swapifier and Largest Gamers Community Platform!
 
