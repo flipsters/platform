@@ -4,7 +4,7 @@
 [![Build Status](https://semaphoreci.com/api/v1/yoginth/swapifier/branches/master/shields_badge.svg)](https://semaphoreci.com/yoginth/swapifier)
 [![Assertible status](https://assertible.com/apis/f56294b4-5228-4195-95a1-c774cf0f61dd/status?api_token=6tDpBxLoRvrmYld4)](https://assertible.com/dashboard#/services/f56294b4-5228-4195-95a1-c774cf0f61dd/results)
 
-Open Source code for Swapifier and Largest Gamers Community Platform!
+Open Source code for Swapifier the Largest Gamers Community Platform!
 
 # Contributers
 
