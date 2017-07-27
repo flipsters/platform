@@ -9,7 +9,7 @@
 -->
 <html class="no-js css-menubar" lang="{{config('settings.default_locale')}}" >
   <head>
-  	<link href="https://cdn.jsdelivr.net" rel="dns-prefetch" />
+  	 <link href="https://cdn.jsdelivr.net" rel="dns-prefetch" />
 	  <link href="https://i1.wp.com" rel="dns-prefetch" />
 	  <link rel="preload" href="{{ trans('general.cdnurl') }}img/logo.png" as="image">
 	
