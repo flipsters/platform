@@ -19,6 +19,8 @@ Open Source code for Swapifier the Largest Gamers Community Platform!
 
  - [Cloudflare](https://www.cloudflare.com/?utm_source=swapifier&utm_medium=link&utm_campaign=swapifier)
  - [Godaddy](https://godaddy.com/?utm_source=swapifier&utm_medium=link&utm_campaign=swapifier)
+ - [jsDelivr](https://jsdelivr.com/?utm_source=swapifier&utm_medium=link&utm_campaign=swapifier)
+ - [Jetpack Photon](https://https://jetpack.com/?utm_source=swapifier&utm_medium=link&utm_campaign=swapifier)
  
 If you are interested in becoming a sponsor, please feel free to contact us!
 
