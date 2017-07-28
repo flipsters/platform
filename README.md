@@ -25,4 +25,4 @@ If you are interested in becoming a sponsor, please feel free to contact us!
 # License
 Swapifier is Licensed under [MIT license](LICENSE)
 
-Made with :Heart: in India.
+Made with :heart: in India.
