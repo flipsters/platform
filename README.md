@@ -1,5 +1,6 @@
 # Platform
 
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/swapifier/platform)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/swapifier/platform/issues)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6203f83da8f1436b8dc4533f5332044d)](https://www.codacy.com/app/swapifier/platform?utm_source=github.com&utm_medium=referral&utm_content=swapifier/platform&utm_campaign=badger)
 [![Build Status](https://semaphoreci.com/api/v1/yoginth/swapifier/branches/master/shields_badge.svg)](https://semaphoreci.com/yoginth/swapifier)
