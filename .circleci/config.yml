@@ -1,0 +1,20 @@
+machine:
+  php:
+    version: 7.0.1
+
+  environment:
+    ENVIRONMENT: testing
+    DB_URL: 127.0.0.1
+    DB_NAME: swapifier_test
+    DB_USER: ubuntu
+    DB_CONNECTION: mysql
+    APP_KEY: abcdefghijklmnopqrstuvwxyz123456
+
+dependencies:
+  override:
+    - cp .env.travis .env
+    - mysql -u $DATABASE_MYSQL_USERNAME -p$DATABASE_MYSQL_PASSWORD -e "CREATE DATABASE IF NOT EXISTS swapifier_test;"
+    - composer self-update
+    - composer install --no-interaction
+    - php artisan key:generate
+    - php artisan vendor:publish
