@@ -286,9 +286,9 @@ app_id={{config('settings.facebook_client_id')}}&display=popup&href={{URL::curre
 @section('after-scripts')
 
 
-<script src="https://cdn.jsdelivr.net/masonry/4.2.0/masonry.pkgd.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/sawpcdn/imagesloaded@v4.1.3/imagesloaded.pkgd.min.js"></script>
-<script src="https://cdn.jsdelivr.net/jquery.magnific-popup/1.0.0/jquery.magnific-popup.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.0/masonry.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 
 {{-- Load comment script --}}
 @if(config('settings.comment_game'))
