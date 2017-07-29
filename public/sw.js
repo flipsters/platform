@@ -447,6 +447,13 @@
             maxEntries: 5,
             maxAgeSeconds: 604800
         }
+    })), o.a.router.get("/(.*)", o.a.cacheFirst, Object.assign({}, f, {
+        origin: "https://unpkg.com",
+        cache: {
+            name: u.mainBundles,
+            maxEntries: 5,
+            maxAgeSeconds: 604800
+        }
     })), o.a.router.get("/ajax/(.*)", o.a.cacheFirst, Object.assign({}, f, {
         origin: "https://cdnjs.cloudflare.com",
         cache: {
