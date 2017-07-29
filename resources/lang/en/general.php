@@ -54,8 +54,8 @@ return [
 	
     /* Content Delivery Network URL String */
 	
-    'url' => 'https://cdn.jsdelivr.net/npm/swapdelivr@2.0.0/',
-    'cdnurl' => 'https://cdn.jsdelivr.net/npm/swapdelivr@2.0.0/',
+    'url' => 'https://unpkg.com/swapdelivr@2.0.0/',
+    'cdnurl' => 'https://unpkg.com/swapdelivr@2.0.0/',
 
     /* Start new strings v1.2 */
     'blog' => 'Blog',
