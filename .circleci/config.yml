@@ -13,7 +13,7 @@ machine:
 dependencies:
   override:
     - cp .env.travis .env
-    - mysql -u $DATABASE_MYSQL_USERNAME -p$DATABASE_MYSQL_PASSWORD -e "CREATE DATABASE IF NOT EXISTS swapifier_test;"
+    - mysql -e 'create database swapifier_test;'
     - composer self-update
     - composer install --no-interaction
     - php artisan key:generate
