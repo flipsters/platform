@@ -16,15 +16,15 @@
 
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
-    <link rel="stylesheet" href="{{ trans('general.cdnurl') }}vendor/adminlte/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swapdelivr@1.0.0/vendor/adminlte/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/2.3.11/css/AdminLTE.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/2.3.11/css/skins/skin-red.min.css">
-    <link rel="stylesheet" href="{{ trans('general.cdnurl') }}vendor/adminlte/plugins/pace/pace.min.css">
-    <link rel="stylesheet" href="{{ trans('general.cdnurl') }}vendor/backpack/pnotify/pnotify.custom.min.css">
-    <link rel="stylesheet" href="{{ trans('general.cdnurl') }}vendor/backpack/backpack.base.css">
+    <link rel="stylesheet" href="https://unpkg.com/swapdelivr@1.0.0/vendor/adminlte/plugins/pace/pace.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swapdelivr@1.0.0/vendor/backpack/pnotify/pnotify.custom.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swapdelivr@1.0.0/vendor/backpack/backpack.base.css">
 
     @yield('after_styles')
 
@@ -92,7 +92,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-slimScroll/1.3.8/jquery.slimscroll.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
-    <script src="{{ trans('general.cdnurl') }}vendor/adminlte/dist/js/app.min.js"></script>
+    <script src="https://unpkg.com/swapdelivr@1.0.0/vendor/adminlte/dist/js/app.min.js"></script>
     <script type="text/javascript">
         // To make Pace works on Ajax calls
         $(document).ajaxStart(function() { Pace.restart(); });
