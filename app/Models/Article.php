@@ -114,9 +114,9 @@ class Article extends Model
     public function getImageSquareTinyAttribute()
     {
         if (!is_null($this->image)) {
-            return 'https://scaleflex.cloudimg.io/cdn/n/n/friendstub.com/images/square_tiny/' . $this->image;
+            return 'https://i1.wp.com/friendstub.com/images/square_tiny/' . $this->image;
         } else {
-            return 'https://scaleflex.cloudimg.io/cdn/n/n/friendstub.com/images/square_tiny/no_cover.jpg';
+            return 'https://i1.wp.com/friendstub.com/images/square_tiny/no_cover.jpg';
         }
     }
 
@@ -128,9 +128,9 @@ class Article extends Model
     public function getImageLargeAttribute()
     {
         if (!is_null($this->image)) {
-            return 'https://scaleflex.cloudimg.io/cdn/n/n/friendstub.com/images/large/' . $this->image;
+            return 'https://i1.wp.com/friendstub.com/images/large/' . $this->image;
         } else {
-            return 'https://scaleflex.cloudimg.io/cdn/n/n/friendstub.com/images/large/no_cover.jpg';
+            return 'https://i1.wp.com/friendstub.com/images/large/no_cover.jpg';
         }
     }
 }

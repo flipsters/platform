@@ -26,7 +26,7 @@
             @if($game)
             <img src="{{ $game->image_square_tiny }}" alt="{{ $game->name }}">
             @else
-            <img src="{{ trans('general.cdnurl') }}img/no_cover.jpg" alt="Not in database">
+            <img src="https://unpkg.com/swapdelivr@1.0.0/img/no_cover.jpg" alt="Not in database">
             @endif
           </span>
         </div>

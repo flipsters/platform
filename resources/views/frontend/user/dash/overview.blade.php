@@ -4,11 +4,11 @@
   {{-- Start subheader --}}
   <div class="subheader">
 
-    <div class="background-pattern" style="background-image: url('{{ trans('general.cdnurl') }}img/game_pattern.png') !important;"></div>
+    <div class="background-pattern" style="background-image: url('https://unpkg.com/swapdelivr@1.0.0/img/game_pattern.png') !important;"></div>
     <div class="background-color"></div>
     {{-- Subheader title (Dashboard) --}}
     <div class="content">
-      <span class="title"><i class="fa fa-tachometer" style="color:#20f12d"></i> {{ trans('users.dash.dashboard') }}</span>
+      <span class="title"><i class="fa fa-tachometer"></i> {{ trans('users.dash.dashboard') }}</span>
     </div>
 
   </div>
@@ -367,7 +367,7 @@
 
           <div class="modal-header">
 
-            <div class="background-pattern" style="background-image: url('{{ trans('general.cdnurl') }}img/game_pattern.png');"></div>
+            <div class="background-pattern" style="background-image: url('https://unpkg.com/swapdelivr@1.0.0/img/game_pattern.png');"></div>
 
             <div class="title">
               <button type="button" class="close" data-dismiss="modal">
@@ -649,7 +649,7 @@
 
           <div class="modal-header">
 
-            <div class="background-pattern" style="background-image: url('{{ trans('general.cdnurl') }}img/game_pattern.png');"></div>
+            <div class="background-pattern" style="background-image: url('https://unpkg.com/swapdelivr@1.0.0/img/game_pattern.png');"></div>
 
             <div class="title">
               <button type="button" class="close" data-dismiss="modal">

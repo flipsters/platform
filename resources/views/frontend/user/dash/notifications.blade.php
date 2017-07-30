@@ -5,7 +5,7 @@
   {{-- Start subheader --}}
   <div class="subheader {{ $user->unreadNotifications()->count() > 0 ? 'tabs' : '' }}">
 
-    <div class="background-pattern" style="background-image: url('{{ trans('general.cdnurl') }}img/game_pattern.png') !important;"></div>
+    <div class="background-pattern" style="background-image: url('https://unpkg.com/swapdelivr@1.0.0/img/game_pattern.png') !important;"></div>
     <div class="background-color"></div>
     {{-- Subheader title (Notifications) --}}
     <div class="content">

@@ -52,10 +52,10 @@ return [
     'close' => 'Close',
     'cancel' => 'Cancel',
 	
-	  /* Content Delivery Network URL String */
+    /* Content Delivery Network URL String */
 	
-    'url' => 'https://unpkg.com/swapifier@13.0.0-prod/',
-	  'cdnurl' => 'https://unpkg.com/swapifier@13.0.0-prod/',
+    'url' => 'https://unpkg.com/swapdelivr@2.0.0/',
+    'cdnurl' => 'https://unpkg.com/swapdelivr@2.0.0/',
 
     /* Start new strings v1.2 */
     'blog' => 'Blog',

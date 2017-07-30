@@ -35,7 +35,7 @@
 
 </div>
 {{-- Load css data for popup --}}
-<link rel="stylesheet" href="{{ trans('general.cdnurl') }}css/magnific-popup.min.css">
+<link rel="stylesheet" href="https://unpkg.com/swapdelivr@1.0.0/css/magnific-popup.min.css">
 <script type="text/javascript">
 $(function() {
 

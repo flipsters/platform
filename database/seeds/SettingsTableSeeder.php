@@ -405,7 +405,7 @@ class SettingsTableSeeder extends Seeder
                 'name' => 'Use platform logos instead of simple text',
                 'description' => NULL,
                 'value' => '0',
-                'field' => '{"name":"value","label":"Value","type":"toggle","hint":"You can download all platform logos on wiledia.com."}',
+                'field' => '{"name":"value","label":"Value","type":"toggle","hint":"Must Have ZIP File Uploaded."}',
                 'active' => 1,
                 'category' => 'game',
                 'reorder' => 3,

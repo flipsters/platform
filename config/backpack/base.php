@@ -12,17 +12,17 @@ return [
     */
 
     // Project name. Shown in the breadcrumbs and a few other places.
-    'project_name' => 'GameTrade',
+    'project_name' => 'Swapifier',
 
     // Menu logos
     'logo_lg'   =>  '<img src="img/backend/logo_full.png" height="25" >',
     'logo_mini' => '<img src="img/backend/logo_tiny.png" >',
 
     // Developer or company name. Shown in footer.
-    'developer_name' => 'Wiledia',
+    'developer_name' => 'Swapifier Team',
 
     // Developer website. Link in footer.
-    'developer_link' => 'http://www.wiledia.com',
+    'developer_link' => 'https://swapifier.com',
 
     // Show powered by Laravel Backpack in the footer?
     'show_powered_by' => true,

@@ -143,7 +143,7 @@ class Listing extends Model
     public function getPictureOriginalAttribute()
     {
         if (!is_null($this->picture)) {
-            return 'https://scaleflex.cloudimg.io/cdn/n/n/friendstub.com/images/picture/' . $this->picture;
+            return 'https://i1.wp.com/friendstub.com/images/picture/' . $this->picture;
         } else {
             return null;
         }
@@ -157,7 +157,7 @@ class Listing extends Model
     public function getPictureSquareAttribute()
     {
         if (!is_null($this->picture)) {
-            return 'https://scaleflex.cloudimg.io/cdn/n/n/friendstub.com/images/avatar_square/' . $this->picture;
+            return 'https://i1.wp.com/friendstub.com/images/avatar_square/' . $this->picture;
         } else {
             return null;
         }

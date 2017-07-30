@@ -5,7 +5,7 @@
   {{-- Start Subheader --}}
   <div class="subheader">
 
-    <div class="background-pattern" style="background-image: url('{{ trans('general.cdnurl') }}img/game_pattern.png');"></div>
+    <div class="background-pattern" style="background-image: url('https://unpkg.com/swapdelivr@1.0.0/img/game_pattern.png');"></div>
     <div class="background-color"></div>
 
     <div class="content">

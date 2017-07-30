@@ -4,7 +4,7 @@
 {{-- Start Subheader --}}
 <div class="subheader">
 
-  <div class="background-pattern" style="background-image: url('{{ trans('general.cdnurl') }}img/game_pattern.png') !important;"></div>
+  <div class="background-pattern" style="background-image: url('https://unpkg.com/swapdelivr@1.0.0/img/game_pattern.png') !important;"></div>
   <div class="background-color"></div>
 
   <div class="content">
@@ -232,7 +232,7 @@
   {{-- Start Sell / Trade selection --}}
   <div class="selection">
     {{-- Pattern --}}
-    <div class="background-pattern" style="background-image: url('{{ trans('general.cdnurl') }}img/game_pattern.png');"></div>
+    <div class="background-pattern" style="background-image: url('https://unpkg.com/swapdelivr@1.0.0/img/game_pattern.png');"></div>
     {{-- Color Gradient --}}
     <div class="background-color"></div>
     {{-- Sell Trigger --}}
@@ -264,7 +264,7 @@
     {{-- Sell Panel Header --}}
     <div class="panel-heading sell">
       {{-- Background pattern --}}
-      <div class="background-pattern" style="background-image: url('{{ trans('general.cdnurl') }}img/game_pattern.png');"></div>
+      <div class="background-pattern" style="background-image: url('https://unpkg.com/swapdelivr@1.0.0/img/game_pattern.png');"></div>
       <div class="bg-color"></div>
       <div class="panel-heading-listing-form-content flex-center-space">
         <div>
@@ -355,7 +355,7 @@
 
       <div class="panel-heading trade">
         {{-- Background pattern --}}
-        <div class="background-pattern" style="background-image: url('{{ trans('general.cdnurl') }}img/game_pattern.png');"></div>
+        <div class="background-pattern" style="background-image: url('https://unpkg.com/swapdelivr@1.0.0/img/game_pattern.png');"></div>
         <div class="bg-color"></div>
         <div class="panel-heading-listing-form-content flex-center-space">
           <div>
@@ -470,7 +470,7 @@
 
       <div class="modal-header">
 
-        <div class="background-pattern" style="background-image: url('{{ trans('general.cdnurl') }}img/game_pattern.png');"></div>
+        <div class="background-pattern" style="background-image: url('https://unpkg.com/swapdelivr@1.0.0/img/game_pattern.png');"></div>
         <div class="background-color"></div>
 
         <div class="title">
@@ -573,15 +573,15 @@
 
 
 
-<link href="{{ trans('general.cdnurl') }}vendor/backpack/summernote/summernote_frontend.css" rel="stylesheet" type="text/css" />
+<link href="https://unpkg.com/swapdelivr@1.0.0/vendor/backpack/summernote/summernote_frontend.css" rel="stylesheet" type="text/css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js"></script>
-<script src="{{ trans('general.cdnurl') }}vendor/backpack/summernote/summernote.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.64/jquery.form-validator.min.js"></script>
+<script src="{https://unpkg.com/swapdelivr@1.0.0/vendor/backpack/summernote/summernote.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.74/jquery.form-validator.min.js"></script>
 
 @if(config('settings.picture_upload') || (isset($listing) && !is_null($listing->picture)))
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Dropify/0.2.2/js/dropify.min.js"></script>
-  <link rel="stylesheet" href="{{ trans('general.cdnurl') }}css/dropify.css">
+  <link rel="stylesheet" href="https://unpkg.com/swapdelivr@1.0.0/css/dropify.css">
 @endif
 
 

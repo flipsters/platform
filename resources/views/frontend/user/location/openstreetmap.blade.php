@@ -113,8 +113,8 @@
 
 
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/leaflet/1/leaflet.css" />
-<script src="https://cdn.jsdelivr.net/leaflet/1/leaflet.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.1.0/leaflet.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.1.0/leaflet.js"></script>
 
 <style>
   #map-example-container {height: 150px; border-radius: 5px; opacity: 0.99;};
@@ -123,7 +123,7 @@
   .ap-cursor { background-color: #212121; }
 </style>
 
-<script src="https://cdn.jsdelivr.net/places.js/1/places.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/places.js/1.4.15/places.min.js"></script>
 <script>
 (function() {
 

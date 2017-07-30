@@ -27,28 +27,28 @@ return [
     'assets' => [
         'global' => [
             'scripts' => [
-                'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js',
+                'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js',
             ],
         ],
 
         'canvas-gauges' => [
             'scripts' => [
-                'https://cdn.rawgit.com/Mikhus/canvas-gauges/gh-pages/download/2.0.9/all/gauge.min.js',
+                'https://cdn.jsdelivr.net/gh/Mikhus/canvas-gauges@v2.0.9/gauge.min.js',
             ],
         ],
 
         'chartist' => [
             'scripts' => [
-                'https://cdnjs.cloudflare.com/ajax/libs/chartist/0.10.1/chartist.min.js',
+                'https://cdn.jsdelivr.net/chartist.js/0.10.1/chartist.min.js',
             ],
             'styles' => [
-                'https://cdnjs.cloudflare.com/ajax/libs/chartist/0.10.1/chartist.min.css',
+                'https://cdn.jsdelivr.net/chartist.js/0.10.1/chartist.min.css',
             ],
         ],
 
         'chartjs' => [
             'scripts' => [
-                'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js',
+                'https://cdn.jsdelivr.net/gh/chartjs/Chart.js@v2.4.0/dist/Chart.min.js',
             ],
         ],
 
@@ -72,18 +72,18 @@ return [
                 'https://cdnjs.cloudflare.com/ajax/libs/highcharts/5.0.4/css/highcharts.css',
             ],
             'scripts' => [
-                'https://cdnjs.cloudflare.com/ajax/libs/highcharts/5.0.2/highcharts.js',
-                'https://cdnjs.cloudflare.com/ajax/libs/highcharts/5.0.2/js/modules/exporting.js',
-                'https://cdnjs.cloudflare.com/ajax/libs/highmaps/5.0.2/js/modules/map.js',
-                'https://cdnjs.cloudflare.com/ajax/libs/highmaps/5.0.2/js/modules/data.js',
+                'https://cdn.jsdelivr.net/highcharts/5.0.2/highcharts.js',
+                'https://cdn.jsdelivr.net/highcharts/5.0.2/modules/exporting.js',
+                'https://cdn.jsdelivr.net/highcharts/5.0.2/modules/map.js',
+                'https://cdn.jsdelivr.net/highcharts/5.0.2/modules/data.js',
                 'https://code.highcharts.com/mapdata/custom/world.js',
             ],
         ],
 
         'justgage' => [
             'scripts' => [
-                'https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.6/raphael.min.js',
-                'https://cdnjs.cloudflare.com/ajax/libs/justgage/1.2.2/justgage.min.js',
+                'http://cdn.jsdelivr.net/gh/DmitryBaranovskiy/raphael@v2.2.7/raphael.min.js',
+                'https://cdn.jsdelivr.net/gh/sawpcdn/justgage@1.2.2/justgage.min.js',
             ],
         ],
 
@@ -93,13 +93,13 @@ return [
             ],
             'scripts' => [
                 'https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.6/raphael.min.js',
-                'https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js',
+                'https://cdn.jsdelivr.net/morris.js/0.5.1/morris.min.js',
             ],
         ],
 
         'plottablejs' => [
             'scripts' => [
-                'https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js',
+                'https://cdn.jsdelivr.net/d3js/4.8.0/d3.min.js',
                 'https://cdnjs.cloudflare.com/ajax/libs/plottable.js/2.2.0/plottable.min.js',
             ],
             'styles' => [
@@ -115,11 +115,11 @@ return [
 
         'c3' => [
             'scripts' => [
-                'https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js',
-                'https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.min.js',
+                'https://cdn.jsdelivr.net/d3js/3.5.5/d3.min.js',
+                'https://cdn.jsdelivr.net/c3/0.4.11/c3.min.js',
             ],
             'styles' => [
-                'https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.min.css',
+                'https://cdn.jsdelivr.net/c3/0.4.11/c3.min.css',
             ],
         ],
     ],

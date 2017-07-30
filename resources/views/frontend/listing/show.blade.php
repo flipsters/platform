@@ -254,7 +254,7 @@
 
             <div class="modal-header">
               {{-- Background pattern --}}
-              <div class="background-pattern" style="background-image: url('{{ trans('general.cdnurl') }}img/game_pattern.png');"></div>
+              <div class="background-pattern" style="background-image: url('https://unpkg.com/swapdelivr@1.0.0/img/game_pattern.png');"></div>
               {{-- Background color --}}
               <div class="background-color"></div>
               {{-- Title (Trade / Close button) --}}
@@ -370,7 +370,7 @@
         <div class="card game-cover-wrapper hvr-grow-shadow">
 
           {{-- Cover for trade suggestion --}}
-          <div class="game-cover-suggestion " style="background: radial-gradient(rgba(48,47,47,0) 0, rgba(48,47,47,0.7) 60%, rgba(48,47,47,0.9) 100%), url('{{ trans('general.cdnurl') }}img/game_pattern_white.png') 0% 20%;"></div>
+          <div class="game-cover-suggestion " style="background: radial-gradient(rgba(48,47,47,0) 0, rgba(48,47,47,0.7) 60%, rgba(48,47,47,0.9) 100%), url('https://unpkg.com/swapdelivr@1.0.0/img/game_pattern_white.png') 0% 20%;"></div>
 
           {{-- Suggestion icon --}}
           <div class="no-cover-name suggestion-icon"><i class="fa fa-retweet" aria-hidden="true"></i></div>
@@ -398,7 +398,7 @@
 
             <div class="modal-header">
               {{-- Background pattern --}}
-              <div class="background-pattern" style="background-image: url('{{ trans('general.cdnurl') }}img/game_pattern.png');"></div>
+              <div class="background-pattern" style="background-image: url('https://unpkg.com/swapdelivr@1.0.0/img/game_pattern.png');"></div>
               {{-- Background color --}}
               <div class="background-color"></div>
               {{-- Title (Trade / Close button) --}}
@@ -601,7 +601,7 @@
 
           <div class="modal-header">
 
-            <div class="background-pattern" style="background-image: url('{{ trans('general.cdnurl') }}img/game_pattern.png');"></div>
+            <div class="background-pattern" style="background-image: url('https://unpkg.com/swapdelivr@1.0.0/img/game_pattern.png');"></div>
 
             <div class="title">
               <button type="button" class="close" data-dismiss="modal">
@@ -654,7 +654,7 @@
 
         <div class="modal-header">
           {{-- Background pattern --}}
-          <div class="background-pattern" style="background-image: url('{{ trans('general.cdnurl') }}img/game_pattern.png');"></div>
+          <div class="background-pattern" style="background-image: url('https://unpkg.com/swapdelivr@1.0.0/img/game_pattern.png');"></div>
           {{-- Background color --}}
           <div class="background-color"></div>
           {{-- Title (Buy & Close button) --}}
@@ -829,17 +829,17 @@
 
 {{-- Load mask money script if price suggestions is activated --}}
 @if($listing->sell_negotiate || $listing->trade_negotiate)
-<script src="{{ trans('general.cdnurl') }}js/jquery.maskMoney.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js"></script>
 @endif
 
 {{-- Load google maps when user location have lat and long --}}
 @if($listing->user->location && $listing->user->location->latitude && $listing->user->location->longitude && config('settings.google_maps_key'))
-<script src="{{ trans('general.cdnurl') }}js/gmap3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gmap3/7.2.0/gmap3.min.js"></script>
 <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key={{ config('settings.google_maps_key') }}"></script>
 @endif
 
 @if($listing->picture)
-<link rel="stylesheet" href="{{ trans('general.cdnurl') }}css/magnific-popup.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js">
 @endif
 
 <script type="text/javascript">

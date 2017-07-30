@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>{{ config('backpack.base.project_name') }} Error 503</title>
+    <title>{{ config('backpack.base.project_name') }} Error 503 - Platform Down</title>
 
     <link href='https://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
 
@@ -157,13 +157,11 @@
           </div>
           <div class="shadow"></div>
 
-          <h1>Whoops!</h1>
+          <h1>Whoops! Platform Down</h1>
           <p>
-            We couldn't find the page you
-            <br />
-            were looking for.
+            Platform Down we could backup ASAP!
           </p>
-          <a href="{{url('')}}" class="return"> Return to the homepage </a>
+          <a href="{{url('')}}" class="return"> Reload </a>
         </div>
       </div>
     </div>

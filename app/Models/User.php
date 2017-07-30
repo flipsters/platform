@@ -88,7 +88,7 @@ class User extends Authenticatable
     public function getAvatarSquareAttribute()
     {
         if (!is_null($this->avatar)) {
-            return 'https://scaleflex.cloudimg.io/cdn/n/n/friendstub.com/images/avatar_square/' . $this->avatar;
+            return 'https://i1.wp.com/friendstub.com/images/avatar_square/' . $this->avatar;
         } else {
             return "https://secure.gravatar.com/avatar/" . md5( strtolower( trim( $this->email ) ) ) . "?size=80&default=retro";
         }
@@ -102,7 +102,7 @@ class User extends Authenticatable
     public function getAvatarSquareTinyAttribute()
     {
         if (!is_null($this->avatar)) {
-            return 'https://scaleflex.cloudimg.io/cdn/n/n/friendstub.com/images/avatar_square_tiny/' . $this->avatar;
+            return 'https://i1.wp.com/friendstub.com/images/avatar_square_tiny/' . $this->avatar;
         } else {
             return "https://secure.gravatar.com/avatar/" . md5( strtolower( trim( $this->email ) ) ) . "?size=50&default=retro";
         }

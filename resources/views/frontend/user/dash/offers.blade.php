@@ -4,11 +4,11 @@
 
   <div class="subheader {{ count($user->offers) == 0 ? '' : 'tabs' }}">
 
-    <div class="background-pattern" style="background-image: url('{{ trans('general.cdnurl') }}img/game_pattern.png') !important;"></div>
+    <div class="background-pattern" style="background-image: url('https://unpkg.com/swapdelivr@1.0.0/img/game_pattern.png') !important;"></div>
     <div class="background-color"></div>
 
     <div class="content">
-      <span class="title"><i class="fa fa-briefcase" style="color:#45a0f6"></i> {{ trans('general.offers') }}</span>
+      <span class="title"><i class="fa fa-briefcase"></i> {{ trans('general.offers') }}</span>
     </div>
 
     @if(count($user->offers) != 0)
@@ -265,7 +265,7 @@
 
         <div class="modal-header">
           
-          <div class="background-pattern" style="background-image: url('{{ trans('general.cdnurl') }}img/game_pattern.png');"></div>
+          <div class="background-pattern" style="background-image: url('https://unpkg.com/swapdelivr@1.0.0/img/game_pattern.png');"></div>
 
           <div class="title">
             <button type="button" class="close" data-dismiss="modal">
