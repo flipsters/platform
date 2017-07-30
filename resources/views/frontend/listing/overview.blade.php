@@ -11,7 +11,7 @@
     <div style="background-color: {{$system->color}}; height: 300px; margin-top: -60px; z-index: 0; position: relative;"></div>
     @endif
 
-    <div style="background: linear-gradient(0deg, rgba(26,24,24,1) 0%, rgba(26,24,24,0.6) 50%, rgba(26,24,24,0) 100%),url('{{ trans('general.cdnurl') }}img/game_pattern_white.png'); z-index: 1; height: 300px; position: absolute; top: 0; width: 100%; margin-top: -60px;"></div>
+    <div style="background: linear-gradient(0deg, rgba(26,24,24,1) 0%, rgba(26,24,24,0.6) 50%, rgba(26,24,24,0) 100%),url('https://unpkg.com/swapdelivr@1.0.0/img/game_pattern_white.png'); z-index: 1; height: 300px; position: absolute; top: 0; width: 100%; margin-top: -60px;"></div>
 
   </div>
 
