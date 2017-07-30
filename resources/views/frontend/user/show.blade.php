@@ -147,7 +147,7 @@
       @endphp
       {{-- Start Rating --}}
       <section class="panel rating-panel hvr-grow-shadow2 {{$bg}}">
-        <div class="background-pattern" style="background-image: url('{{ trans('general.cdnurl') }}img/game_pattern.png') !important;"></div>
+        <div class="background-pattern" style="background-image: url('https://unpkg.com/swapdelivr@1.0.0/img/game_pattern.png') !important;"></div>
         <div class="background-color" style="border-radius: 5px;"></div>
 
         <div class="panel-body">
