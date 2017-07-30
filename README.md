@@ -8,7 +8,7 @@
 [![npm](https://img.shields.io/npm/dt/swapdelivr.svg)](https://npmjs.com/package/swapdelivr)
 [![license](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](https://github.com/swapifier/platform/blob/master/LICENSE)
 
-Open Source code for Swapifier the largest professional Gamers Community Platform where one can swap their games or purchase their desired games!
+Open Source code for Swapifier the largest professional Gamers Community Platform where one can swap their games or buy desired games!
 
 # Contributers
 
