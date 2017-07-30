@@ -6,7 +6,7 @@
     <div class="bg-image" style="background: linear-gradient(0deg, rgba(25,24,24,1) 0%, rgba(25,24,24,0.8) 30%, rgba(25,24,24,0) 80%), url({{ $game->image_cover }});"></div>
     {{-- Default background when image cover is missing --}}
     @else
-    <div class="bg-image no-image" style="background: linear-gradient(0deg, rgba(25,24,24,1) 0%, rgba(25,24,24,0.8) 30%, rgba(25,24,24,0) 80%), url('{{ trans('general.cdnurl') }}img/game_pattern_white.png);"></div>
+    <div class="bg-image no-image" style="background: linear-gradient(0deg, rgba(25,24,24,1) 0%, rgba(25,24,24,0.8) 30%, rgba(25,24,24,0) 80%), url('https://unpkg.com/swapdelivr@1.0.0/img/game_pattern_white.png);"></div>
     @endif
   </div>
   {{-- background color overlay --}}

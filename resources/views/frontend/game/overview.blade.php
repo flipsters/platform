@@ -8,7 +8,7 @@
 
   <div style="position: absolute; z-index:0 !important; top: 0; width: 100%; ">
 
-    <div id="parallax" style="background: linear-gradient(0deg, rgba(26,24,24,1) 0%, rgba(26,24,24,0.8) 30%, rgba(26,24,24,0.5) 100%),url('{{ trans('general.cdnurl') }}img/game_pattern_white.png'); height:200px; "></div>
+    <div id="parallax" style="background: linear-gradient(0deg, rgba(26,24,24,1) 0%, rgba(26,24,24,0.8) 30%, rgba(26,24,24,0.5) 100%),url('https://unpkg.com/swapdelivr@1.0.0/img/game_pattern_white.png'); height:200px; "></div>
   </div>
 
 </div>
