@@ -147,7 +147,7 @@
     {{-- Start declined status --}}
     <div class="offer-status bg-danger">
 
-      <div class="background-pattern" style="background-image: url('{{ trans('general.cdnurl') }}img/game_pattern.png') !important;"></div>
+      <div class="background-pattern" style="background-image: url('https://unpkg.com/swapdelivr@1.0.0/img/game_pattern.png') !important;"></div>
       <div class="background-color"></div>
 
       <div class="flex-center-space offer-status-wrapper">
@@ -177,7 +177,7 @@
     {{-- Listing user need to accept the offer --}}
     @if($offer->status == 0)
     <div class="offer-status wait-status">
-      <div class="background-pattern" style="background-image: url('{{ trans('general.cdnurl') }}img/game_pattern.png') !important;"></div>
+      <div class="background-pattern" style="background-image: url('https://unpkg.com/swapdelivr@1.0.0/img/game_pattern.png') !important;"></div>
       <div class="background-color"></div>
 
       <div class="flex-center-space offer-status-wrapper">
@@ -233,7 +233,7 @@
     @if($offer->status == 1)
     <div class="offer-status rate-status">
 
-      <div class="background-pattern" style="background-image: url('{{ trans('general.cdnurl') }}img/game_pattern.png') !important;"></div>
+      <div class="background-pattern" style="background-image: url('https://unpkg.com/swapdelivr@1.0.0/img/game_pattern.png') !important;"></div>
       <div class="background-color"></div>
 
       <div class="flex-center-space offer-status-wrapper">
@@ -355,7 +355,7 @@
         </div>
       @endif
 
-      <div class="background-pattern" style="background-image: url('{{ trans('general.cdnurl') }}img/game_pattern.png') !important;"></div>
+      <div class="background-pattern" style="background-image: url('https://unpkg.com/swapdelivr@1.0.0/img/game_pattern.png') !important;"></div>
       <div class="background-color"></div>
 
       <div class="flex-center-space offer-status-wrapper">
@@ -507,7 +507,7 @@
           <div class="panel-body t-p">
             {{-- Start Rating --}}
             <section class="panel rating-panel {{ $rating_offer->bg }}">
-              <div class="background-pattern" style="background-image: url('{{ trans('general.cdnurl') }}img/game_pattern.png') !important;"></div>
+              <div class="background-pattern" style="background-image: url('https://unpkg.com/swapdelivr@1.0.0/img/game_pattern.png') !important;"></div>
               <div class="background-color" style="border-radius: 5px;"></div>
 
               {{-- Revoked overlay --}}
@@ -596,7 +596,7 @@
           <div class="panel-body t-p">
             {{-- Start Rating --}}
             <section class="panel rating-panel {{ $rating_listing->bg }}">
-              <div class="background-pattern" style="background-image: url('{{ trans('general.cdnurl') }}img/game_pattern.png') !important;"></div>
+              <div class="background-pattern" style="background-image: url('https://unpkg.com/swapdelivr@1.0.0/img/game_pattern.png') !important;"></div>
               <div class="background-color" style="border-radius: 5px;"></div>
               {{-- Declined overlay --}}
 
@@ -770,7 +770,7 @@
 
         <div class="modal-header">
 
-          <div class="background-pattern" style="background-image: url('{{ trans('general.cdnurl') }}img/game_pattern.png');"></div>
+          <div class="background-pattern" style="background-image: url('https://unpkg.com/swapdelivr@1.0.0/img/game_pattern.png');"></div>
 
           <div class="title">
             <button type="button" class="close" data-dismiss="modal">
@@ -906,7 +906,7 @@
 
         <div class="modal-header">
 
-          <div class="background-pattern" style="background-image: url('{{ trans('general.cdnurl') }}img/game_pattern.png');"></div>
+          <div class="background-pattern" style="background-image: url('https://unpkg.com/swapdelivr@1.0.0/img/game_pattern.png');"></div>
 
           <div class="title">
             <button type="button" class="close" data-dismiss="modal">
@@ -954,7 +954,7 @@
 
         <div class="modal-header">
 
-          <div class="background-pattern" style="background-image: url('{{ trans('general.cdnurl') }}img/game_pattern.png');"></div>
+          <div class="background-pattern" style="background-image: url('https://unpkg.com/swapdelivr@1.0.0/img/game_pattern.png');"></div>
 
           <div class="title">
             <button type="button" class="close" data-dismiss="modal">
@@ -1010,7 +1010,7 @@
 
           <div class="modal-header">
 
-            <div class="background-pattern" style="background-image: url('{{ trans('general.cdnurl') }}img/game_pattern.png');"></div>
+            <div class="background-pattern" style="background-image: url('https://unpkg.com/swapdelivr@1.0.0/img/game_pattern.png');"></div>
 
             <div class="title">
               <button type="button" class="close" data-dismiss="modal">
